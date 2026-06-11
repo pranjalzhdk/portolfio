@@ -1,0 +1,123 @@
+[
+  {
+    "id": "cross-cultural-interfaces",
+    "title": "Cross-Cultural Interface Patterns",
+    "type": "study",
+    "year": "2025",
+    "summary": "Comparative study of 24 digital products used across Indian and European contexts — cataloguing interaction patterns that translate, fail, or transform across cultures.",
+    "methods": ["Comparative analysis", "Expert interviews", "Heuristic evaluation"],
+    "findings": ["Color symbolism varies dramatically", "Gesture vocabularies don't translate", "Privacy expectations differ by collectivist/individualist context"],
+    "insights": ["Cultural UX requires co-design with both contexts", "Motion semantics carry cultural weight", "Language switching is an interaction, not a setting"],
+    "tags": ["Cultural UX", "Research", "Global Design"],
+    "connections": ["sutra", "memory-loom"],
+    "status": "published",
+    "position": { "x": 15, "y": 20 }
+  },
+  {
+    "id": "motion-trust",
+    "title": "Motion & Trust Signals",
+    "type": "experiment",
+    "year": "2025",
+    "summary": "Testing how animation timing and easing affect perceived trustworthiness in financial and health interfaces — 40 participants across 6 motion patterns.",
+    "methods": ["A/B testing", "Eye tracking", "Post-task surveys"],
+    "findings": ["Fast motion (<150ms) increases anxiety in financial contexts", "Eased deceleration signals completion", "Loading animation style affects abandonment"],
+    "insights": ["Trust is temporal — motion timing is a trust signal", "Context determines optimal motion speed", "Skeleton screens outperform spinners for perceived speed"],
+    "tags": ["Motion", "Trust", "Psychology"],
+    "connections": ["sutra", "tactile-type"],
+    "status": "published",
+    "position": { "x": 45, "y": 15 }
+  },
+  {
+    "id": "transit-ethnography",
+    "title": "Transit Ethnography · Zürich",
+    "type": "study",
+    "year": "2025",
+    "summary": "Ethnographic fieldwork with 32 international commuters navigating Zürich's public transit — mapping emotional journey breakpoints.",
+    "methods": ["Ride-alongs", "Diary studies", "Station intercepts"],
+    "findings": ["Transfer moments cause 3× anxiety vs. boarding", "Ticket systems assume local knowledge", "Disruption communication lacks actionable alternatives"],
+    "insights": ["Service design must map emotion, not just tasks", "Multilingual ≠ multicultural", "Recovery paths matter more than prevention"],
+    "personas": [
+      { "name": "International student", "need": "Transfer confidence", "quote": "I plan my route the night before like an exam." }
+    ],
+    "journeySteps": [
+      { "phase": "Plan", "insight": "Over-preparation as anxiety management" },
+      { "phase": "Transfer", "insight": "Peak stress seeking human confirmation" },
+      { "phase": "Recover", "insight": "Needs 2 clear alternatives, not 10 options" }
+    ],
+    "references": ["Norman, D. — Emotional Design", "ZVB Annual Report 2024"],
+    "tags": ["Mobility", "Ethnography", "Service Design"],
+    "connections": ["transit-pulse"],
+    "status": "published",
+    "position": { "x": 75, "y": 25 }
+  },
+  {
+    "id": "haptic-language",
+    "title": "Haptic Language Prototypes",
+    "type": "experiment",
+    "year": "2024",
+    "summary": "Arduino-based experiments mapping emotional meaning to haptic patterns — exploring vibration as an interaction medium.",
+    "methods": ["Prototype testing", "Sensory mapping", "Participant interviews"],
+    "findings": ["Rhythm communicates urgency better than intensity", "Warmth patterns reduce error anxiety", "Personal haptic preferences vary widely"],
+    "insights": ["Haptics are an underused design material", "Accessibility applications are immediate", "Cultural haptic norms exist but are understudied"],
+    "tags": ["Haptics", "Hardware", "Accessibility"],
+    "connections": ["tactile-type", "echo-field"],
+    "status": "published",
+    "position": { "x": 25, "y": 55 }
+  },
+  {
+    "id": "scroll-narrative",
+    "title": "Scroll-Driven Narrative Architecture",
+    "type": "exploration",
+    "year": "2024",
+    "summary": "Framework for designing scroll interactions where content transformation carries semantic meaning — tested across 5 portfolio and editorial sites.",
+    "methods": ["Case study analysis", "Prototype development", "User testing"],
+    "findings": ["Scroll speed affects comprehension", "Parallax depth aids orientation when subtle", "Section transitions need 600-800ms for narrative pacing"],
+    "insights": ["Scroll is a timeline — design it as one", "Motion without meaning is decoration", "Reduced motion paths are essential"],
+    "tags": ["Scroll", "Narrative", "Web"],
+    "connections": ["memory-loom", "echo-field"],
+    "status": "published",
+    "position": { "x": 55, "y": 50 }
+  },
+  {
+    "id": "sonic-wayfinding",
+    "title": "Sonic Wayfinding Systems",
+    "type": "concept",
+    "year": "2024",
+    "summary": "Conceptual framework for audio-first navigation in exhibition and public spaces — when the ear leads, the eye follows.",
+    "methods": ["Literature review", "Spatial prototyping", "Expert interviews"],
+    "findings": ["Sound creates presence without visual load", "Spatial audio increases dwell time", "Accessibility benefit for low-vision visitors"],
+    "insights": ["Sonic UX is an emerging discipline", "Web Audio API enables rapid prototyping", "Curators are untapped sonic designers"],
+    "tags": ["Audio", "Spatial", "Exhibition"],
+    "connections": ["echo-field"],
+    "status": "published",
+    "position": { "x": 85, "y": 45 }
+  },
+  {
+    "id": "oral-history-digital",
+    "title": "Oral History in Digital Archives",
+    "type": "study",
+    "year": "2024",
+    "summary": "Research into how families document, store, and lose oral histories in digital formats — auto-ethnographic study with 3 families.",
+    "methods": ["Auto-ethnography", "Family interviews", "Archival analysis"],
+    "findings": ["89% of voice memos never revisited", "Stories connect thematically, not chronologically", "Generational gap in digital preservation habits"],
+    "insights": ["Personal motivation drives preservation", "Non-linear archives match memory structure", "Voice carries irreplaceable emotional data"],
+    "tags": ["Storytelling", "Archive", "Cultural Tech"],
+    "connections": ["memory-loom"],
+    "status": "published",
+    "position": { "x": 35, "y": 78 }
+  },
+  {
+    "id": "gesture-vocabulary",
+    "title": "Touch Gesture Vocabulary",
+    "type": "exploration",
+    "year": "2023",
+    "summary": "Cataloguing touch gesture patterns across 15 mobile apps — proposing a design language balancing discoverability and efficiency.",
+    "methods": ["App audit", "Gesture logging", "Participatory workshops"],
+    "findings": ["Standard gestures vary by cultural context", "Long-press discoverability is near zero", "Custom gestures need onboarding rituals"],
+    "insights": ["Gesture design is cultural design", "Onboarding is part of the gesture", "Fallbacks must always exist"],
+    "tags": ["Gestures", "Mobile", "Systems"],
+    "connections": ["sutra", "tactile-type"],
+    "status": "published",
+    "position": { "x": 65, "y": 72 }
+  }
+]

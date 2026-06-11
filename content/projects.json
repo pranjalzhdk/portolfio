@@ -1,0 +1,417 @@
+[
+  {
+    "id": "proj-sutra",
+    "slug": "sutra",
+    "title": "Sutra",
+    "subtitle": "Cultural navigation for the Indian diaspora in Europe",
+    "year": "2025",
+    "category": "Interaction Design",
+    "role": "Lead Designer & Researcher",
+    "timeline": "14 weeks · ZHdK Studio Project",
+    "color": "#6366f1",
+    "position": { "x": -2.2, "y": 0.6, "z": -1.0 },
+    "excerpt": "A mobile experience helping diaspora communities navigate identity, language, and belonging through calm, culturally-aware interaction patterns.",
+    "description": "Sutra reimagines how second-generation immigrants interact with cultural resources — not as archives, but as living threads of connection.",
+    "tags": ["Mobile", "Cultural UX", "Research"],
+    "featured": true,
+    "status": "published",
+    "coverGradient": "from-indigo-500/20 to-violet-500/10",
+    "keyOutcomes": ["+52% engagement with cultural content", "4.8/5 cultural resonance score", "12 co-design participants"],
+    "researchInsight": "Users don't want heritage delivered — they want to weave it into daily life.",
+    "sections": {
+      "challenge": {
+        "headline": "Cultural apps feel like museums. Diaspora life is not.",
+        "body": "Second-generation Indians in Switzerland reported feeling caught between worlds — existing platforms either felt too traditional or too assimilated, with no space for the nuanced in-between.",
+        "metrics": [
+          { "label": "Felt 'misrepresented'", "value": "68%" },
+          { "label": "Abandoned cultural apps", "value": "3.1× avg" },
+          { "label": "Co-design participants", "value": "12" }
+        ]
+      },
+      "research": {
+        "summary": "Eight weeks of cultural probes, diary studies, and community workshops in Zurich and Basel revealed that identity navigation is emotional, not informational.",
+        "findings": [
+          { "title": "Language is emotional", "detail": "Switching between Hindi and English carries social weight.", "stat": "84%" },
+          { "title": "Community over content", "detail": "Users sought connection rituals, not content libraries." },
+          { "title": "Privacy matters deeply", "detail": "Cultural identity exploration requires safe, private spaces." }
+        ],
+        "journeySteps": [
+          { "phase": "Awaken", "insight": "Opens app during moments of cultural longing" },
+          { "phase": "Explore", "insight": "Browses threads, not categories" },
+          { "phase": "Connect", "insight": "Seeks shared experiences over expert content" },
+          { "phase": "Integrate", "insight": "Wants gentle daily rituals, not events" }
+        ],
+        "personas": [
+          { "name": "Priya, 24", "need": "Belong without performing", "quote": "I don't want to choose between being Indian or Swiss. I want both, quietly." },
+          { "name": "Arjun, 29", "need": "Language without judgment", "quote": "My Hindi is broken. The app shouldn't make me feel that." }
+        ]
+      },
+      "process": {
+        "phases": [
+          { "title": "Cultural Probes", "duration": "3 weeks", "description": "Distributed probe kits to 12 participants across Zurich." },
+          { "title": "Synthesis", "duration": "2 weeks", "description": "Affinity mapping surfaced three identity navigation modes." },
+          { "title": "Co-Design", "duration": "4 weeks", "description": "Weekly workshops with diaspora community members." },
+          { "title": "Validation", "duration": "3 weeks", "description": "Prototype testing with 20 participants over 2 weeks." }
+        ]
+      },
+      "prototypes": {
+        "title": "Threads, not categories",
+        "description": "Cultural content organized as woven threads — users follow, combine, and create personal narratives.",
+        "interactions": [
+          { "name": "Thread weaving", "detail": "Drag to connect cultural topics into personal journeys." },
+          { "name": "Gentle language switch", "detail": "Seamless bilingual transitions without mode switching." },
+          { "name": "Private reflection", "detail": "Personal notes visible only to the user." }
+        ]
+      },
+      "outcome": {
+        "headline": "Identity became navigable, not performative.",
+        "impact": [
+          { "metric": "Cultural engagement", "change": "+52%", "context": "Weekly active cultural interactions" },
+          { "metric": "Resonance score", "change": "4.8/5", "context": "Self-reported cultural representation" },
+          { "metric": "Return visits", "change": "+71%", "context": "Within 30 days" }
+        ]
+      },
+      "reflection": {
+        "lessons": [
+          "Cultural UX requires community co-design, not expert assumptions.",
+          "Motion in cultural interfaces must feel warm, never performative.",
+          "Privacy is a design material — especially for identity exploration."
+        ],
+        "nextSteps": "Exploring voice-based cultural storytelling and intergenerational connection features."
+      }
+    },
+    "updatedAt": "2026-06-12T00:00:00.000Z"
+  },
+  {
+    "id": "proj-transit-pulse",
+    "slug": "transit-pulse",
+    "title": "Transit Pulse",
+    "subtitle": "Wayfinding research for Zürich's multilingual commuters",
+    "year": "2025",
+    "category": "UX Research",
+    "role": "Research Lead",
+    "timeline": "10 weeks · Future Mobility Lab",
+    "color": "#34d399",
+    "position": { "x": 0.4, "y": 1.2, "z": 0.3 },
+    "excerpt": "Ethnographic research and interaction prototypes for ZVB — understanding how newcomers navigate transit in four languages.",
+    "description": "A research-led project mapping confusion points in Zürich public transit for international residents and proposing interaction improvements.",
+    "tags": ["Research", "Mobility", "Service Design"],
+    "featured": true,
+    "status": "published",
+    "coverGradient": "from-emerald-500/20 to-teal-500/10",
+    "keyOutcomes": ["32 participant interviews", "6 critical journey breakpoints identified", "3 prototype concepts validated"],
+    "researchInsight": "Transit anxiety peaks at transfer moments, not at origin.",
+    "sections": {
+      "challenge": {
+        "headline": "Zürich transit is efficient. For newcomers, it doesn't feel that way.",
+        "body": "International ZHdK students and recent arrivals reported high anxiety around transfers, ticket validation, and real-time disruption communication — despite ZVB's strong infrastructure.",
+        "metrics": [
+          { "label": "Reported transit anxiety", "value": "74%" },
+          { "label": "Wrong connection incidents", "value": "2.4× locals" },
+          { "label": "Research participants", "value": "32" }
+        ]
+      },
+      "research": {
+        "summary": "Ride-alongs, station intercepts, and journey diaries with 32 international commuters mapped emotional peaks across the transit experience.",
+        "findings": [
+          { "title": "Transfer panic", "detail": "Anxiety spikes during platform changes, not boarding.", "stat": "81%" },
+          { "title": "Ticket opacity", "detail": "Zone systems remain confusing despite app availability." },
+          { "title": "Disruption silence", "detail": "Delay notifications lack actionable next steps." }
+        ],
+        "journeySteps": [
+          { "phase": "Plan", "insight": "Over-researches route before leaving home" },
+          { "phase": "Board", "insight": "Validates ticket repeatedly" },
+          { "phase": "Transfer", "insight": "Highest stress — seeks human confirmation" },
+          { "phase": "Arrive", "insight": "Relief, then forgets learnings" }
+        ],
+        "personas": [
+          { "name": "Mei, 22", "need": "Confidence at transfers", "quote": "I need to know I'm on the right platform before the train arrives." },
+          { "name": "Carlos, 26", "need": "Simple ticket clarity", "quote": "I've paid fines I didn't understand. The system assumes you know." }
+        ]
+      },
+      "process": {
+        "phases": [
+          { "title": "Ethnography", "duration": "4 weeks", "description": "32 ride-alongs across peak and off-peak hours." },
+          { "title": "Journey Mapping", "duration": "2 weeks", "description": "Service blueprint across 8 touchpoints." },
+          { "title": "Concept Design", "duration": "3 weeks", "description": "Three interaction concepts prototyped in Figma." },
+          { "title": "Validation", "duration": "1 week", "description": "Wizard-of-Oz testing at Zürich HB." }
+        ]
+      },
+      "prototypes": {
+        "title": "Calm at the transfer moment",
+        "description": "Three concepts focused on the transfer anxiety peak — ambient platform guidance, ticket clarity, and disruption recovery.",
+        "interactions": [
+          { "name": "Platform pulse", "detail": "Ambient floor indicators showing correct boarding zone." },
+          { "name": "Ticket translator", "detail": "Plain-language ticket validation with visual confirmation." },
+          { "name": "Recovery paths", "detail": "When delayed, shows 2 clear alternatives instantly." }
+        ]
+      },
+      "outcome": {
+        "headline": "Research became actionable design direction.",
+        "impact": [
+          { "metric": "Transfer confidence", "change": "+38%", "context": "Post-prototype testing" },
+          { "metric": "Concept preference", "change": "3/3", "context": "Concepts validated with users" },
+          { "metric": "Lab partnership", "change": "Extended", "context": "Future Mobility Lab collaboration" }
+        ]
+      },
+      "reflection": {
+        "lessons": [
+          "Service design research must include emotional mapping, not just task flows.",
+          "Multilingual interfaces need cultural context, not just translation.",
+          "The best transit UX disappears — it prevents anxiety before it forms."
+        ],
+        "nextSteps": "Developing AR wayfinding prototype for Zürich HB transfer hall."
+      }
+    },
+    "updatedAt": "2026-06-12T00:00:00.000Z"
+  },
+  {
+    "id": "proj-echo-field",
+    "slug": "echo-field",
+    "title": "Echo Field",
+    "subtitle": "Spatial audio interaction for museum exhibitions",
+    "year": "2024",
+    "category": "Experimental Interface",
+    "role": "Interaction Designer",
+    "timeline": "12 weeks · Studio Forma Internship",
+    "color": "#a78bfa",
+    "position": { "x": 1.9, "y": -0.5, "z": -1.8 },
+    "excerpt": "An immersive exhibition interface where visitors navigate soundscapes through gesture — developed for a contemporary art museum in Basel.",
+    "description": "Echo Field transforms passive audio guides into spatial interaction — visitors shape their sonic environment through movement.",
+    "tags": ["Spatial", "Audio", "Exhibition"],
+    "featured": false,
+    "status": "published",
+    "coverGradient": "from-violet-500/20 to-purple-500/10",
+    "keyOutcomes": ["+89% dwell time vs. audio guide", "156% more artworks explored", "Exhibited at Basel Art Week"],
+    "researchInsight": "Sound creates presence. Navigation should follow the ear, not the eye.",
+    "sections": {
+      "challenge": {
+        "headline": "Museum audio guides narrate. They don't immerse.",
+        "body": "Studio Forma's client wanted a digital layer that matched their exhibition's theme of sonic memory — existing audio guide patterns felt linear and institutional.",
+        "metrics": [
+          { "label": "Audio guide completion", "value": "23%" },
+          { "label": "Avg. dwell time", "value": "4.2 min" },
+          { "label": "Artworks in exhibition", "value": "18" }
+        ]
+      },
+      "research": {
+        "summary": "Visitor observation, curator interviews, and sonic ethnography shaped a spatial interaction model for audio-first navigation.",
+        "findings": [
+          { "title": "Ears lead in dark spaces", "detail": "Visitors in dim galleries follow sound instinctively." },
+          { "title": "Linear feels institutional", "detail": "Numbered stops break immersion." },
+          { "title": "Gesture feels natural", "detail": "Hand movements to 'shape' sound tested positively." }
+        ],
+        "journeySteps": [
+          { "phase": "Enter", "insight": "Seeks atmosphere before information" },
+          { "phase": "Drift", "insight": "Follows sonic curiosity" },
+          { "phase": "Focus", "insight": "Pauses when sound resonates emotionally" },
+          { "phase": "Share", "insight": "Captures sonic moments, not photos" }
+        ],
+        "personas": [
+          { "name": "Curator Lena", "need": "Sonic narrative control", "quote": "Sound is the exhibition. The interface should conduct it." },
+          { "name": "Visitor Tom", "need": "Discovery without instruction", "quote": "I want to wander and let the space guide me." }
+        ]
+      },
+      "process": {
+        "phases": [
+          { "title": "Sonic Ethnography", "duration": "3 weeks", "description": "Mapped visitor sound behavior in 3 museums." },
+          { "title": "Gesture Prototyping", "duration": "4 weeks", "description": "Leap Motion and Web Audio API experiments." },
+          { "title": "Co-Design", "duration": "3 weeks", "description": "Weekly sessions with curatorial team." },
+          { "title": "Exhibition", "duration": "2 weeks", "description": "Live deployment at Basel Art Week." }
+        ]
+      },
+      "prototypes": {
+        "title": "Conduct your experience",
+        "description": "Visitors move hands to blend sound layers — proximity to artworks unlocks narrative fragments.",
+        "interactions": [
+          { "name": "Sonic blend", "detail": "Gesture-controlled mixing of ambient and narrative layers." },
+          { "name": "Proximity unlock", "detail": "Approaching artworks reveals hidden audio fragments." },
+          { "name": "Memory capture", "detail": "Save sonic moments as shareable audio postcards." }
+        ]
+      },
+      "outcome": {
+        "headline": "Immersion replaced narration.",
+        "impact": [
+          { "metric": "Dwell time", "change": "+89%", "context": "Vs. traditional audio guide" },
+          { "metric": "Artworks explored", "change": "+156%", "context": "Per visitor session" },
+          { "metric": "Exhibition reach", "change": "Basel Art Week", "context": "Live deployment" }
+        ]
+      },
+      "reflection": {
+        "lessons": [
+          "Spatial interfaces need strong non-visual orientation cues.",
+          "Web Audio API performance is a design constraint — embrace it.",
+          "Curators are sonic directors — treat them as co-designers."
+        ],
+        "nextSteps": "Exploring haptic feedback paired with spatial audio for accessibility."
+      }
+    },
+    "updatedAt": "2026-06-12T00:00:00.000Z"
+  },
+  {
+    "id": "proj-tactile-type",
+    "slug": "tactile-type",
+    "title": "Tactile Type",
+    "subtitle": "Kinetic typography for low-vision readers",
+    "year": "2024",
+    "category": "Accessibility Research",
+    "role": "Designer & Researcher",
+    "timeline": "8 weeks · ZHdK Research Module",
+    "color": "#f472b6",
+    "position": { "x": -1.0, "y": -1.1, "z": -0.6 },
+    "excerpt": "An experiment in motion-enhanced typography — testing whether kinetic letterforms improve comprehension for low-vision digital readers.",
+    "description": "Tactile Type explores the boundary between motion design and accessibility — when does animation help, and when does it harm?",
+    "tags": ["Accessibility", "Typography", "Motion"],
+    "featured": false,
+    "status": "published",
+    "coverGradient": "from-pink-500/20 to-rose-500/10",
+    "keyOutcomes": ["18 participants with varying vision levels", "+22% comprehension with optimal timing", "Published at ZHdK Research Day"],
+    "researchInsight": "Motion helps when it follows reading rhythm — not when it decorates.",
+    "sections": {
+      "challenge": {
+        "headline": "Accessibility tools prioritize function. Reading should still feel beautiful.",
+        "body": "Low-vision users often rely on screen magnification and high contrast — but kinetic typography's potential for guided reading remains largely unexplored in digital contexts.",
+        "metrics": [
+          { "label": "Use screen magnification", "value": "92%" },
+          { "label": "Report reading fatigue", "value": "67%" },
+          { "label": "Study participants", "value": "18" }
+        ]
+      },
+      "research": {
+        "summary": "Controlled studies with 18 participants tested 6 kinetic typography patterns at varying speeds and contrast levels.",
+        "findings": [
+          { "title": "Timing is everything", "detail": "200-400ms reveal optimal; faster causes stress.", "stat": "22%" },
+          { "title": "Contrast + motion compound", "detail": "High contrast with subtle motion beats either alone." },
+          { "title": "Personal preference varies", "detail": "No single pattern works for all vision levels." }
+        ],
+        "journeySteps": [
+          { "phase": "Approach", "insight": "Scans for familiar letter shapes" },
+          { "phase": "Focus", "insight": "Motion guides eye to word boundaries" },
+          { "phase": "Read", "insight": "Rhythm matching reduces fatigue" },
+          { "phase": "Adjust", "insight": "Wants personal speed control" }
+        ],
+        "personas": [
+          { "name": "Helena, 45", "need": "Readable and dignified", "quote": "Accessibility tools make me feel broken. I want design that respects me." },
+          { "name": "Researcher Dr. Weiss", "need": "Evidence-based patterns", "quote": "Show me the data. Then show me the beauty." }
+        ]
+      },
+      "process": {
+        "phases": [
+          { "title": "Literature Review", "duration": "1 week", "description": "Survey of kinetic type and accessibility research." },
+          { "title": "Pattern Design", "duration": "2 weeks", "description": "6 motion patterns at 3 speed levels." },
+          { "title": "User Testing", "duration": "3 weeks", "description": "Controlled comprehension tests with 18 participants." },
+          { "title": "Synthesis", "duration": "2 weeks", "description": "Pattern library and guidelines published." }
+        ]
+      },
+      "prototypes": {
+        "title": "Motion that reads with you",
+        "description": "Six kinetic patterns tested for comprehension, comfort, and preference across vision levels.",
+        "interactions": [
+          { "name": "Reveal rhythm", "detail": "Letters appear in reading order at adjustable speed." },
+          { "name": "Focus pulse", "detail": "Subtle highlight follows reading position." },
+          { "name": "Personal preset", "detail": "Save motion preferences per user profile." }
+        ]
+      },
+      "outcome": {
+        "headline": "Beauty and access can coexist.",
+        "impact": [
+          { "metric": "Comprehension", "change": "+22%", "context": "Optimal motion timing vs. static" },
+          { "metric": "Reading comfort", "change": "+31%", "context": "Self-reported fatigue reduction" },
+          { "metric": "Publication", "change": "ZHdK Research Day", "context": "Pattern library shared" }
+        ]
+      },
+      "reflection": {
+        "lessons": [
+          "Accessibility research needs participants with lived experience, not simulations.",
+          "Motion timing matters more than motion style for comprehension.",
+          "Personal control is non-negotiable in accessible motion design."
+        ],
+        "nextSteps": "Building open-source React component library for kinetic accessible typography."
+      }
+    },
+    "updatedAt": "2026-06-12T00:00:00.000Z"
+  },
+  {
+    "id": "proj-memory-loom",
+    "slug": "memory-loom",
+    "title": "Memory Loom",
+    "subtitle": "Digital archive for oral family histories",
+    "year": "2024",
+    "category": "Digital Experience",
+    "role": "Lead Designer",
+    "timeline": "16 weeks · Thesis Preparation",
+    "color": "#38bdf8",
+    "position": { "x": 2.4, "y": 0.2, "z": 0.1 },
+    "excerpt": "An interactive platform weaving oral histories into explorable narrative threads — born from documenting my grandmother's stories before they fade.",
+    "description": "Memory Loom transforms linear oral history recordings into spatial, interconnected narratives families can explore together.",
+    "tags": ["Storytelling", "Cultural Tech", "Archive"],
+    "featured": true,
+    "status": "published",
+    "coverGradient": "from-sky-500/20 to-blue-500/10",
+    "keyOutcomes": ["3 family archives created", "4.9/5 emotional resonance", "Selected for ZHdK Year Show"],
+    "researchInsight": "Memory is non-linear. Archives shouldn't be either.",
+    "sections": {
+      "challenge": {
+        "headline": "Family stories die in voice memos.",
+        "body": "Oral histories remain trapped in linear recordings — unsearchable, unconnected, and increasingly lost as elders pass. My grandmother's stories sparked this project.",
+        "metrics": [
+          { "label": "Stories lost per generation", "value": "73%" },
+          { "label": "Voice memo abandonment", "value": "89%" },
+          { "label": "Families in pilot", "value": "3" }
+        ]
+      },
+      "research": {
+        "summary": "Auto-ethnography, family interviews, and archival research informed a non-linear narrative interaction model.",
+        "findings": [
+          { "title": "Stories connect laterally", "detail": "One memory triggers another — not chronologically.", "stat": "91%" },
+          { "title": "Voice carries emotion", "detail": "Text transcription loses tonal nuance." },
+          { "title": "Families co-explore", "detail": "Shared discovery creates new memories." }
+        ],
+        "journeySteps": [
+          { "phase": "Record", "insight": "Captures in intimate, unhurried moments" },
+          { "phase": "Weave", "insight": "Connects stories by theme, not date" },
+          { "phase": "Explore", "insight": "Family members discover unknown connections" },
+          { "phase": "Continue", "insight": "New generations add threads" }
+        ],
+        "personas": [
+          { "name": "Grandmother Kamla", "need": "Stories preserved with dignity", "quote": "My stories are not data. They are gifts." },
+          { "name": "Cousin Dev, 19", "need": "Connection to roots", "quote": "I never met my great-grandfather. I want to hear him." }
+        ]
+      },
+      "process": {
+        "phases": [
+          { "title": "Auto-Ethnography", "duration": "4 weeks", "description": "Documented own family oral history practices." },
+          { "title": "Platform Design", "duration": "5 weeks", "description": "Non-linear narrative architecture in React." },
+          { "title": "Family Pilots", "duration": "4 weeks", "description": "Three families created living archives." },
+          { "title": "Exhibition", "duration": "3 weeks", "description": "Interactive demo at ZHdK Year Show." }
+        ]
+      },
+      "prototypes": {
+        "title": "Weave, don't list",
+        "description": "Stories exist as threads on a loom — users follow, branch, and connect narratives spatially.",
+        "interactions": [
+          { "name": "Thread navigation", "detail": "Pan through interconnected story threads." },
+          { "name": "Voice preservation", "detail": "Original audio always accessible alongside text." },
+          { "name": "Generational layers", "detail": "New family members add threads over time." }
+        ]
+      },
+      "outcome": {
+        "headline": "Memory became explorable.",
+        "impact": [
+          { "metric": "Family archives", "change": "3", "context": "Living pilot archives created" },
+          { "metric": "Emotional resonance", "change": "4.9/5", "context": "Family participant survey" },
+          { "metric": "Exhibition", "change": "ZHdK Year Show", "context": "Selected for showcase" }
+        ]
+      },
+      "reflection": {
+        "lessons": [
+          "Personal projects carry the deepest research authenticity.",
+          "Non-linear navigation requires gentle orientation — families need guidance.",
+          "Voice is irreplaceable — never substitute with text alone."
+        ],
+        "nextSteps": "Thesis development: scaling Memory Loom for diaspora communities beyond my own family."
+      }
+    },
+    "updatedAt": "2026-06-12T00:00:00.000Z"
+  }
+]

@@ -1,0 +1,128 @@
+{
+  "biography": "Pranjal Sharma is an Interaction Design student at ZHdK (Zurich University of the Arts), originally from India. His work explores how digital interfaces can carry cultural nuance, research rigor, and experimental motion — without sacrificing clarity. He is particularly interested in emerging technology, human-centered systems, and interfaces that feel alive.",
+  "education": [
+    {
+      "year": "2023 — Present",
+      "title": "Bachelor of Arts in Interaction Design",
+      "org": "ZHdK · Zurich University of the Arts",
+      "detail": "Focus on experimental interfaces, UX research methods, and motion-driven interaction systems."
+    },
+    {
+      "year": "2021",
+      "title": "Foundation in Design & Technology",
+      "org": "National Institute of Design, India",
+      "detail": "Introductory studies in visual communication and human-computer interaction."
+    }
+  ],
+  "experience": [
+    {
+      "year": "2025",
+      "title": "Interaction Design Intern",
+      "org": "Studio Forma · Zurich",
+      "detail": "Prototyped spatial interfaces for cultural institutions and led user research sprints."
+    },
+    {
+      "year": "2024",
+      "title": "UX Research Assistant",
+      "org": "Future Mobility Lab · ZHdK",
+      "detail": "Conducted ethnographic studies on public transit behavior and wayfinding in multilingual contexts."
+    },
+    {
+      "year": "2023",
+      "title": "Freelance Product Designer",
+      "org": "Independent · India & Switzerland",
+      "detail": "Designed mobile experiences for early-stage startups focused on education and accessibility."
+    }
+  ],
+  "awards": [
+    "ZHdK Excellence Scholarship · 2024",
+    "Adobe Design Achievement Awards · Semifinalist · 2025",
+    "Interaction Design Foundation · Research Grant · 2024"
+  ],
+  "skills": [
+    {
+      "id": "ux-research",
+      "label": "UX Research",
+      "category": "research",
+      "x": 18,
+      "y": 28,
+      "story": "Contextual inquiry, diary studies, and synthesis — turning observation into design direction.",
+      "projects": ["transit-pulse", "sutra"]
+    },
+    {
+      "id": "interaction-design",
+      "label": "Interaction Design",
+      "category": "design",
+      "x": 48,
+      "y": 18,
+      "story": "Designing the grammar of touch, gesture, and feedback for meaningful digital experiences.",
+      "projects": ["sutra", "echo-field", "tactile-type"]
+    },
+    {
+      "id": "motion-design",
+      "label": "Motion Design",
+      "category": "motion",
+      "x": 78,
+      "y": 32,
+      "story": "Motion as communication — timing and choreography that guides without distracting.",
+      "projects": ["tactile-type", "echo-field"]
+    },
+    {
+      "id": "prototyping",
+      "label": "Prototyping",
+      "category": "design",
+      "x": 32,
+      "y": 52,
+      "story": "From paper to code — rapid iteration across fidelity levels to test hypotheses.",
+      "projects": ["memory-loom", "transit-pulse"]
+    },
+    {
+      "id": "emerging-tech",
+      "label": "Emerging Technology",
+      "category": "code",
+      "x": 68,
+      "y": 58,
+      "story": "Exploring spatial computing, haptics, and creative coding as design materials.",
+      "projects": ["echo-field", "tactile-type"]
+    },
+    {
+      "id": "systems-thinking",
+      "label": "Systems Thinking",
+      "category": "strategy",
+      "x": 22,
+      "y": 72,
+      "story": "Mapping ecosystems and touchpoints into coherent, human-centered experiences.",
+      "projects": ["sutra", "transit-pulse"]
+    },
+    {
+      "id": "accessibility",
+      "label": "Accessibility",
+      "category": "research",
+      "x": 52,
+      "y": 78,
+      "story": "Inclusive design woven into every interaction decision from the start.",
+      "projects": ["tactile-type", "sutra"]
+    },
+    {
+      "id": "creative-coding",
+      "label": "Creative Coding",
+      "category": "code",
+      "x": 82,
+      "y": 72,
+      "story": "React, Three.js, and GSAP — building experiences that push beyond static mockups.",
+      "projects": ["echo-field", "memory-loom"]
+    }
+  ],
+  "skillConnections": [
+    ["ux-research", "interaction-design"],
+    ["interaction-design", "motion-design"],
+    ["interaction-design", "prototyping"],
+    ["prototyping", "creative-coding"],
+    ["ux-research", "systems-thinking"],
+    ["systems-thinking", "accessibility"],
+    ["motion-design", "emerging-tech"],
+    ["interaction-design", "emerging-tech"],
+    ["prototyping", "accessibility"]
+  ],
+  "updatedAt": "2026-06-12T00:00:00.000Z"
+}

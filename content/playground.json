@@ -1,0 +1,38 @@
+[
+  {
+    "id": "magnetic-type",
+    "title": "Magnetic Typography",
+    "description": "Letters respond to cursor proximity with spring physics — exploring typographic affordance.",
+    "type": "motion"
+  },
+  {
+    "id": "elastic-cursor",
+    "title": "Elastic Cursor",
+    "description": "A cursor that stretches toward interactive targets — micro-feedback as navigation.",
+    "type": "interaction"
+  },
+  {
+    "id": "morph-button",
+    "title": "Morphing CTA",
+    "description": "Button states that morph rather than swap — continuity in action confirmation.",
+    "type": "concept"
+  },
+  {
+    "id": "particle-field",
+    "title": "Interaction Network",
+    "description": "Connected nodes that react to scroll velocity — a living systems visualization.",
+    "type": "code"
+  },
+  {
+    "id": "scroll-reveal",
+    "title": "Scroll Reveal",
+    "description": "Editorial text that assembles from fragments on scroll — narrative through motion.",
+    "type": "motion"
+  },
+  {
+    "id": "toggle-physics",
+    "title": "Physics Toggle",
+    "description": "Switch with realistic spring damping — haptic-feeling digital controls.",
+    "type": "interaction"
+  }
+]

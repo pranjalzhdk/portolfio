@@ -1,0 +1,21 @@
+{
+  "name": "Pranjal Sharma",
+  "role": "Interaction Design Student",
+  "headline": "Interaction Designer",
+  "statement": "I design interfaces that translate complexity into calm — bridging human intuition with emerging systems.",
+  "email": "hello@pranjalsharma.design",
+  "location": "Zurich, Switzerland",
+  "origin": "Originally from India",
+  "education": "Bachelor of Arts in Interaction Design · ZHdK",
+  "philosophy": "Growing up between Delhi and Zurich taught me that good interaction design listens before it responds. I work at the intersection of research, motion, and experimental interfaces — building digital experiences that feel considered, not clever for its own sake.",
+  "social": {
+    "linkedin": "https://linkedin.com/in/pranjalsharma",
+    "areNa": "https://are.na/pranjal-sharma",
+    "github": "https://github.com/pranjalsharma",
+    "instagram": "https://instagram.com/pranjalsharma.design"
+  },
+  "tools": ["Figma", "Framer", "Principle", "After Effects", "React", "Three.js", "Arduino", "Maze", "Notion"],
+  "interests": ["Emerging technology", "Human-centered design", "Experimental interfaces", "UX research", "Motion semantics", "Cultural technology"],
+  "awards": ["ZHdK Excellence Scholarship 2024", "Adobe Design Achievement Awards — Semifinalist"],
+  "updatedAt": "2026-06-12T00:00:00.000Z"
+}
