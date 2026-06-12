@@ -16,14 +16,21 @@ const geistMono = Geist_Mono({
 export const dynamic = "force-dynamic";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const site = await content.getSite();
-  return {
-    title: {
-      default: `${site.name} — ${site.headline}`,
-      template: `%s · ${site.name}`,
-    },
-    description: site.statement,
-  };
+  try {
+    const site = await content.getSite();
+    return {
+      title: {
+        default: `${site.name} — ${site.headline}`,
+        template: `%s · ${site.name}`,
+      },
+      description: site.statement,
+    };
+  } catch {
+    return {
+      title: "Pranjal Sharma — Interaction Design Portfolio",
+      description: "Interaction design portfolio",
+    };
+  }
 }
 
 export default function RootLayout({

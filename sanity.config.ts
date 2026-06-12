@@ -2,9 +2,10 @@ import { defineConfig } from "sanity";
 import { structureTool, StructureBuilder } from "sanity/structure";
 import { visionTool } from "@sanity/vision";
 import { schemaTypes } from "./sanity/schemaTypes";
+import { getSanityDataset, getSanityProjectId } from "./src/lib/sanity/env";
 
-const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID ?? "";
-const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET ?? "production";
+const projectId = getSanityProjectId();
+const dataset = getSanityDataset();
 
 function singleton(S: StructureBuilder, type: string, title: string, id: string) {
   return S.listItem()

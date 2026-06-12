@@ -1,19 +1,10 @@
 import { createClient, type SanityClient } from "next-sanity";
-
-function requireEnv(name: string): string {
-  const value = process.env[name];
-  if (!value) {
-    throw new Error(
-      `Missing ${name}. Add it to .env.local — see .env.example`,
-    );
-  }
-  return value;
-}
+import { getSanityDataset, getSanityProjectId } from "./env";
 
 function getConfig() {
   return {
-    projectId: requireEnv("NEXT_PUBLIC_SANITY_PROJECT_ID"),
-    dataset: requireEnv("NEXT_PUBLIC_SANITY_DATASET"),
+    projectId: getSanityProjectId(),
+    dataset: getSanityDataset(),
     apiVersion: "2024-01-01" as const,
   };
 }
